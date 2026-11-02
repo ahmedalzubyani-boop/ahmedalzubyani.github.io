@@ -23,8 +23,8 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
           <span className="w-1.5 h-1.5 rounded-full bg-[#d4af37]" />
           <span>
             {isAr
-              ? 'سكاكا، الجوف · المملكة العربية السعودية · مشاريع دولية'
-              : 'SAKAKA, AL JAWF · KINGDOM OF SAUDI ARABIA · GLOBAL'}
+              ? 'المدينة المنورة · المملكة العربية السعودية · مشاريع دولية'
+              : 'AL MADINAH AL MUNAWARAH · KINGDOM OF SAUDI ARABIA · GLOBAL'}
           </span>
         </div>
 
@@ -140,7 +140,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
             KSA · GLOBAL
           </div>
           <div className="text-xs text-[#888] mt-1 font-medium">
-            {isAr ? 'سكاكا، الجوف ونطاق دولي' : 'Saudi Arabia & Global Reach'}
+            {isAr ? 'المدينة المنورة ونطاق دولي' : 'Madinah & Global Reach'}
           </div>
         </div>
       </div>

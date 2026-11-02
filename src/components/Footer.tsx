@@ -27,7 +27,7 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
               : 'Engineering agency dedicated to ambitious products, mobile applications, applied intelligence, and precision civil surveying.'}
           </p>
           <div className="text-[11px] text-[#555] font-mono">
-            {AGENCY_CONTACT.locationEn} · {AGENCY_CONTACT.phone}
+            {isAr ? AGENCY_CONTACT.locationAr : AGENCY_CONTACT.locationEn} · {AGENCY_CONTACT.phone}
           </div>
         </div>
 
@@ -66,7 +66,9 @@ export const Footer: React.FC<FooterProps> = ({ lang }) => {
 
       <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-[#191919] text-center text-xs text-[#555]">
         <p>
-          © 2026 AHMED — Engineering Agency for Ambitious Products. Sakaka, Al Jawf, Saudi Arabia
+          {isAr
+            ? '© 2026 AHMED — وكالة هندسية للمنتجات الطموحة. المدينة المنورة، المملكة العربية السعودية'
+            : '© 2026 AHMED — Engineering Agency for Ambitious Products. Al Madinah Al Munawwarah, Saudi Arabia'}
         </p>
         <p className="mt-1 text-[11px] text-[#444]">
           Ahmed@alzubyani.com · 0556533006

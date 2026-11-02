@@ -1,9 +1,11 @@
 import { Project, ExpertiseItem } from '../types';
 
-export const HERO_IMAGE = '/src/assets/images/hero_engineering_products_1793560050701.jpg';
-export const LMS_IMAGE = '/src/assets/images/project_lms_professor_1793560050840.jpg';
-export const DREAM_IMAGE = '/src/assets/images/project_dream_ai_1793560052391.jpg';
-export const BOQ_IMAGE = '/src/assets/images/project_survey_boq_1793560052150.jpg';
+import HERO_IMAGE from '../assets/images/hero_engineering_products_1793560050701.jpg';
+import LMS_IMAGE from '../assets/images/project_lms_professor_1793560050840.jpg';
+import DREAM_IMAGE from '../assets/images/project_dream_ai_1793560052391.jpg';
+import BOQ_IMAGE from '../assets/images/project_survey_boq_1793560052150.jpg';
+
+export { HERO_IMAGE, LMS_IMAGE, DREAM_IMAGE, BOQ_IMAGE };
 
 export const EXPERTISE_DATA: ExpertiseItem[] = [
   {
@@ -165,8 +167,8 @@ export const AGENCY_CONTACT = {
   phone: '0556533006',
   intlPhone: '+966556533006',
   whatsappUrl: 'https://wa.me/966556533006',
-  locationEn: 'Sakaka, Al Jawf, Saudi Arabia',
-  locationAr: 'سكاكا، الجوف، المملكة العربية السعودية',
+  locationEn: 'Al Madinah Al Munawwarah, Saudi Arabia',
+  locationAr: 'المدينة المنورة، المملكة العربية السعودية',
   coverageEn: 'Worldwide Projects | UAE · KSA · GLOBAL',
   coverageAr: 'مشاريع عالمية | المملكة العربية السعودية · الإمارات · دولياً'
 };
